@@ -1,0 +1,15 @@
+.carousel-item {
+  height: 550px;
+}
+.carousel-item-1 {
+  background: url('Classroom2.JPEG') no-repeat;
+  background-size: cover;
+}
+.carousel-item-2 {
+  background: url('wall2.JPEG') no-repeat;
+  background-size: cover;
+}
+.carousel-item-3 {
+  background: url('vlearn2.JPEG') no-repeat;
+  background-size: cover;
+}
