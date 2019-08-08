@@ -13,3 +13,7 @@
   background: url('vlearn2.JPEG') no-repeat;
   background-size: cover;
 }
+
+head, body{
+  font-family: 'Anton', sans-serif;
+}
