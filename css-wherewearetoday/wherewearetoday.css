@@ -19,18 +19,6 @@
   font-family: 'Lobster', cursive;
 }
 
-.carousel {
-  z-index: -1;
-  /* margin: 20px 0 0 0; */
-  padding: 0;
-}
-
-.carousel-title {
-  position: relative;
-  top: 50%;
-  transform: translate(0,-50%);
-}
-
 .navigation-wrapper{
   font-family: 'Lobster', cursive;
 }
@@ -79,25 +67,6 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #D93A32;}
-
-.carousel-item {
-  height: 550px;
-}
-
-
-
-.carousel-item-1 {
-  background: url('Classroom3.JPEG') no-repeat;
-  background-size: cover;
-}
-.carousel-item-2 {
-  background: url('wall3.JPEG') no-repeat;
-  background-size: cover;
-}
-.carousel-item-3 {
-  background: url('hand3.JPEG') no-repeat;
-  background-size: cover;
-}
 
 head, body{
   font-family: 'Anton', sans-serif;
