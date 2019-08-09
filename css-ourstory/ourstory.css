@@ -35,43 +35,7 @@
                </div>
          </nav>
 
-      <main role="main" class="container">
 
-   <div class="row">
-        <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item carousel-item-1 active">
-              <div class="carousel-title">
-                <h1>VODAFONE</h1>
-                <h1>CODE  LIKE  A  GIRL</h1>
-              </div>
-            </div>
-            <div class="carousel-item carousel-item-2">
-            </div>
-            <div class="carousel-item carousel-item-3">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-    </div>
-
-
-
-
-        <!-- Add another row here -->
-      </main><!-- /.container -->
 
       <!-- Bootstrap core JavaScript
       ================================================== -->

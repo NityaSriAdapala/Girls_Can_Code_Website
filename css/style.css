@@ -3,7 +3,7 @@
   background-color: #FF6961;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   margin-left: 0px;
 
@@ -16,6 +16,7 @@
   text-align: left;
   flex: 1 0 auto;
   color: white;
+  font-family: 'Lobster', cursive;
 }
 
 .carousel-title {
@@ -25,25 +26,21 @@
 }
 
 .navigation-wrapper{
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Lobster', cursive;
 }
 
 .dropbtnn {
   background-color: #FF6961;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
-
-
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
-
   display: inline-block;
-
 }
 
 .navigation-wrapper {
@@ -81,9 +78,7 @@
   height: 550px;
 }
 
-.carouselExampleIndictors{
 
-}
 
 .carousel-item-1 {
   background: url('Classroom3.JPEG') no-repeat;
@@ -112,3 +107,12 @@ h1{
 body{
   background-color: #f1e7c3;
 }
+
+/*<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>*/
