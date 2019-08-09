@@ -1,50 +1,88 @@
-<!doctype html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
-      <meta name="author" content="">
 
+.dropbtn {
+  background-color: #FF6961;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  margin-left: 0px;
 
-      <title>Starter Template for Bootstrap</title>
+}
 
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-      <!-- Custom styles for this template -->
-      <link href="css/style.css" rel="stylesheet">
-    </head>
+.nav-title {
+  background-color: #FF6961;
+  margin: 0;
+  padding: 9px;
+  text-align: left;
+  flex: 1 0 auto;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
 
-    <body>
-         <nav class="navigation-wrapper">
-           <h2 class='nav-title'>Girls Can Code</h2>
-             <div class="dropdown">
-               <button class="dropbtnn">Home</button>
-             </div>
-             <div class="dropdown">
-               <button class="dropbtn">Our Experience</button>
-               <div class="dropdown-content">
-                 <a href="ourstory.html">Our Story</a>
-                 <a href="wherewearetoday.html">Where We Are Today</a>
-              </div>
-            </div>
-             <div class="dropdown">
-               <button class="dropbtn">About</button>
-               </div>
-         </nav>
+.navigation-wrapper{
+  font-family: 'Lobster', cursive;
+}
 
+.dropbtnn {
+  background-color: #FF6961;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-      <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-      <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+.navigation-wrapper {
+  display: flex;
+}
 
-    </body>
-  </html>
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #D93A32;}
+
+head, body{
+  font-family: 'Anton', sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: #ff6961;
+  text-shadow: 3px 2px #f1e7c3;
+  font-size: 90px;
+  letter-spacing: 0.0625em;
+}
+body{
+  background-color: #FF6961;
+}
+
+a{
+  color:white;
+}
