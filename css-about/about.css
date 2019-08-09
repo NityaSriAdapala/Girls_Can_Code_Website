@@ -107,6 +107,11 @@ a{
 .fa-facebook {
   background: #3B5998;
   color: white;
+  flex: 1 0 auto;
+}
+
+.text-container {
+  margin-bottom:0;
 }
 
 /* Twitter */
@@ -124,4 +129,7 @@ a{
 p{
   color: white;
   text-align: center;
+  margin: 130px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
 }
