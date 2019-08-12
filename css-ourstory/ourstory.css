@@ -99,6 +99,12 @@ a{
   margin: 4px 2px;
 }
 
+.square {
+  height: 200px;
+  width: 1365px;
+  background-color: white;
+}
+
 .button5 {border-radius: 50%;}
 
 /* Dropdown Button */
@@ -109,7 +115,8 @@ a{
   border: none;
   background-color: #FF6961;
   padding: 75px;
-  margin: 45px;
+  margin: 60px;
+  margin-bottom: 20px;
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -127,12 +134,13 @@ a{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-size: 17px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 12px 36px;
   text-decoration: none;
   display: block;
   font-family: 'PT Sans Narrow', sans-serif;
