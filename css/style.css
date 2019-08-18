@@ -23,6 +23,8 @@
   z-index: -1;
   /* margin: 20px 0 0 0; */
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .carousel-title {
